@@ -2695,6 +2695,13 @@ var _elm_lang$core$Platform_Sub$none = _elm_lang$core$Platform_Sub$batch(
 var _elm_lang$core$Platform_Sub$map = _elm_lang$core$Native_Platform.map;
 var _elm_lang$core$Platform_Sub$Sub = {ctor: 'Sub'};
 
+var _RobertWalter83$sscce_elm_ports_uncaughterror$Ports$configure = _elm_lang$core$Native_Platform.outgoingPort(
+	'configure',
+	function (v) {
+		return v;
+	});
+var _RobertWalter83$sscce_elm_ports_uncaughterror$Ports$updateModel = _elm_lang$core$Native_Platform.incomingPort('updateModel', _elm_lang$core$Json_Decode$string);
+
 //import Native.List //
 
 var _elm_lang$core$Native_Array = function() {
@@ -5782,13 +5789,6 @@ var _elm_lang$core$Json_Decode$dict = function (decoder) {
 		_elm_lang$core$Json_Decode$keyValuePairs(decoder));
 };
 var _elm_lang$core$Json_Decode$Decoder = {ctor: 'Decoder'};
-
-var _RobertWalter83$sscce_elm_ports_uncaughterror$Ports$configure = _elm_lang$core$Native_Platform.outgoingPort(
-	'configure',
-	function (v) {
-		return v;
-	});
-var _RobertWalter83$sscce_elm_ports_uncaughterror$Ports$updateModel = _elm_lang$core$Native_Platform.incomingPort('updateModel', _elm_lang$core$Json_Decode$string);
 
 //import Native.Json //
 
