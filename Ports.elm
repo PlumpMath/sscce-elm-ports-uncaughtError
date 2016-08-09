@@ -1,5 +1,7 @@
 port module Ports exposing(..)
-import Json.Decode exposing(..)
+
+-- Uncomment this line to avoid the exception
+--import Json.Decode exposing(..)
 
 port configure : String -> Cmd m
 
